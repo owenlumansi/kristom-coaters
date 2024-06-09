@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kristom powder coaters</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header2">
+        <nav>
+            <a href="index.html"><img src="images/white-logo.png"></a>
+            <div class="nav-links"id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About Us.html">ABOUT US</a></li>
+                    <li><a href="Our Services.html">OUR SERVICES</a></li>
+                    <li><a href="Materials.html">MATERIALS</a></li>
+                    <li><a href="Contact Us.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"onclick="showMenu()"></i>
+        </nav>
+        <h1>Materials</h1>
+    </section>
+
+    <!-- ------------------Materials we mainly paint--------------- -->
+<section class="Materials">
+    <h1>Range Of Materials</h1>
+    <p>At Kristom Powder Coaters we plan, prepare, coat and cure projects for various materials such as Steel, Stainless-Steel, Aluminium and more.</p>
+    <div class="row">
+        <div class="Materials-col">
+            <img src="images/chemical-treating.jpg">
+            <div class="layer">
+                <h3>ALUMINIUM</h3>
+            </div>
+        </div>
+        <div class="Materials-col">
+            <img src="images/gold alimimum.jpg">
+            <div class="layer">
+                <h3>STAINLESS STEEL</h3>
+            </div>
+        </div>
+        <div class="Materials-col">
+            <img src="images/black-steal-gate.jpg">
+            <div class="layer">
+                <h3>STEEL</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ------------------Blog page content--------------- -->
+<section class="blog-content">
+<div class="row">
+    <div class="blog-left">
+        <img src="images/large white bars.jpeg">
+        <h2>Why Do you need to Powder coat your products</h2>
+        <p>In the realm of manufacturing and industrial applications, the pursuit of durable, high-quality finishes is paramount. Among the myriad of options available, powder coating stands out as a versatile and indispensable solution. This essay delves into the reasons why someone might need powder coating, exploring its advantages and its indispensable role in various sectors.</p>
+        <br>
+        <p>At its core, powder coating is a method of applying a protective and decorative finish to a wide range of materials, including metals, plastics, and composites. The process involves electrostatically spraying finely ground particles of pigment and resin onto a surface. The coated object is then cured in an oven, where the powder melts and fuses into a smooth, durable finish.</p>
+        <br>
+        <p>One of the foremost reasons for opting for powder coating is its exceptional durability. Unlike traditional liquid paints, which can chip, fade, or peel over time, powder coating forms a resilient barrier that withstands corrosion, abrasion, and exposure to harsh environmental conditions. This durability makes it ideal for applications subjected to heavy wear and tear, such as automotive parts, outdoor furniture, and machinery components.</p>
+        <br>
+        <p>Furthermore, powder coating offers an extensive palette of colors and finishes, ranging from glossy and metallic to matte and textured. This versatility allows for endless customization possibilities, catering to diverse aesthetic preferences and design requirements. Whether it's achieving a sleek, modern look or mimicking the appearance of wood or stone, powder coating provides a solution that meets every aesthetic demand.</p>
+        <div class="comment-box">
+            <h3>Leave a comment</h3>
+            <form action="" class="comment-form">
+                <input type="text" placeholder="Enter Name">
+                <input type="email" placeholder="Enter Email">
+                <textarea rows="5" placeholder="Your Comment"></textarea>
+                <button type="submit"class="hero-btn red-btn">
+                    POST COMMENT
+                </button>
+            </form>
+        </div>
+    </div>
+    <div class="blog-right">
+        <h3>What are we Good at?</h3>
+        <div>
+            <span>Fast Turnaround</span>
+            <span>100%</span>
+        </div>
+        <div>
+            <span>Premium Powder Products</span>
+            <span>100%</span>
+        </div>
+        <div>
+            <span>Affordable Prices</span>
+            <span>50%</span>
+        </div>
+        <div>
+            <span>Quality Finishes</span>
+            <span>100%</span>
+        </div>
+        <div>
+            <span>Friendly Services</span>
+            <span>100%</span>
+        </div>
+        <div>
+            <span>Long Time Warranty</span>
+            <span>100%</span>
+        </div>
+    </div>
+</div>
+</section>
+
+ <!-- ------------------Footer--------------- -->
+ <section class="footer">
+    <h4>Dulux Accredited professionals</h4>
+    <img src="images/Dulux-logo.png" alt="">
+    <p>We believe in a safe & clean working environment. This is not only to protect our team, but also the quality of your products.</p>
+ </section>
+
+
+
+
+ <!-- ------------------JavaScript for Toggle Menu--------------- -->
+
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+
+</body>
+</html>

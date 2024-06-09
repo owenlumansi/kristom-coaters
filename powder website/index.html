@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kristom powder coaters</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/white-logo.png"></a>
+            <div class="nav-links"id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About Us.html">ABOUT US</a></li>
+                    <li><a href="Our Services.html">OUR SERVICES</a></li>
+                    <li><a href="Materials.html">MATERIALS</a></li>
+                    <li><a href="Contact Us.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+
+            <h1> KRISTOM POWDER COATING SERVICES </h1>
+            <P>At Kristom Powder Coating Services, we specialize in metal finishing and sandblasting services for commercial clients.<br>We understand how important it is to have high quality products that last, which is why we use premium materials <br>and strive for excellent customer service.</P>
+            <a href="Contact Us.html" class="hero-btn">Visit Us To know More</a>
+
+        </div>
+    </section>
+
+<!-- ------------------Services We Offer--------------- -->
+<section class="Our-Services">
+    <h1>Our Services We Offer</h1>
+    <p>At Kristom Powder Coaters we complete all these tasks from start to finish in-house with our own team of professionals.</p>
+    <div class="row">
+        <div class="Services-col">
+            <h3>Powder Coating</h3>
+            <p> Our professional team specialize in powder coating and other types of metal finishing. We provide commercial services for businesses of all sizes with high-quality results and customer service.</p>
+        </div>
+        <div class="Services-col">
+            <h3>Sandblasting</h3>
+            <p> Sandblasting is an abrasive grit blast which not only helps restore metal surfaces that have seen better days, but is vital in the preparation of materials for coating.</p>
+        </div>
+        <div class="Services-col">
+            <h3>Pre-Treatment</h3>
+            <p> As part of our quality assurance process for both the short and long term, we subject all of our work to an Immersive Pre-Treatment application.</p>
+        </div>
+    </div>
+</section>
+
+<!-- ------------------Materials we mainly paint--------------- -->
+<section class="Materials">
+    <h1>Range Of Materials</h1>
+    <p>At Kristom Powder Coaters we plan, prepare, coat and cure projects for various materials such as Steel, Stainless-Steel, Aluminum and more.</p>
+    <div class="row">
+        <div class="Materials-col">
+            <img src="images/chemical-treating.jpg">
+            <div class="layer">
+                <h3>ALUMINUM</h3>
+            </div>
+        </div>
+        <div class="Materials-col">
+            <img src="images/gold alimimum.jpg">
+            <div class="layer">
+                <h3>STAINLESS STEEL</h3>
+            </div>
+        </div>
+        <div class="Materials-col">
+            <img src="images/black-steal-gate.jpg">
+            <div class="layer">
+                <h3>STEEL</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ------------------Our Stages of professional work--------------- -->
+
+
+<section class="stages-Of-work">
+    <h1>The Stages Of Work</h1>
+    <p>As part of our quality assurance process for both the short and long term, we subject all of our work to an Immersive Process of application.</p>
+    <div class="row">
+        <div class="stages-of-work-col">
+            <img src="images/painting blue.jpg">
+            <h3>Powder Coating</h3>
+            <p>Don't risk further damaging your Product with letting yearly maintenance fall by the wayside. Get a free quote now!</p>
+        </div>
+        <div class="stages-of-work-col">
+            <img src="images/sand blasting.jpg">
+            <h3>Sand Blasting</h3>
+            <p>Don't risk further damaging your product with rust letting yearly maintenance fall by the wayside let's shade off that rust and dirt. Get a free quote now!</p>
+        </div>
+        <div class="stages-of-work-col">
+            <img src="images/dropping steel in bucket.jpg">
+            <h3>Treating Chemically</h3>
+            <p>Don't risk further damaging your product with letting yearly maintenance fall by the wayside lets chemically treat that product. Get a free quote now!</p>
+        </div>
+    </div>
+</section>
+
+ <!-- ------------------Call To Action--------------- -->
+
+ <section class="cta">
+    <h1>Get a new Life span on your products</h1>
+    <a href="Contact Us.html"class="hero-btn">CONTACT US</a>
+ </section>
+
+ <!-- ------------------Footer--------------- -->
+ <section class="footer">
+    <h4>Dulux Accredited professionals</h4>
+    <img src="images/Dulux-logo.png" alt="">
+    <p>We believe in a safe & clean working environment. This is not only to protect our team, but also the quality of your products.</p>
+ </section>
+
+
+
+
+ <!-- ------------------JavaScript for Toggle Menu--------------- -->
+
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+
+</body>
+</html>
